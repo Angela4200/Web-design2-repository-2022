@@ -8,3 +8,43 @@
     color: white;
     text-transform: uppercase;
 }
+
+/* navigation starts */
+.navigation {
+flex: 30%;
+}
+
+div.navigation ul li a {
+color:white;
+display: flex;
+position: relative;
+z-index:1;
+padding: 3rem;
+font-family: marker felt thin;
+}
+
+/* style the tab */
+div.navigation ul li a{
+    overflow: hidden;
+    border: 1px solid #fec802;
+    background-color: #fec802;
+}
+
+/* style the buttons inside the tab */
+div.navigation ul li a {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* change background color of buttons on hover */
+div.navigation ul li a:hover {
+    background-color: #dfc8d1;
+    color: #800000;
+}
+
+/* navigation ends */
