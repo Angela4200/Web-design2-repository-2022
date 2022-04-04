@@ -9,42 +9,39 @@
     text-transform: uppercase;
 }
 
-/* navigation starts */
-.navigation {
-flex: 30%;
-}
-
-div.navigation ul li a {
-color:white;
-display: flex;
-position: relative;
-z-index:1;
-padding: 3rem;
-font-family: marker felt thin;
-}
-
-/* style the tab */
-div.navigation ul li a{
+/* Add a black background color to top navigation */
+.topnav {
+    background-color: #150300;
+    padding: 15px;
+    margin: 20px;
     overflow: hidden;
-    border: 1px solid #fec802;
-    background-color: #fec802;
 }
 
-/* style the buttons inside the tab */
-div.navigation ul li a {
-    background-color: inherit;
-    border: none;
-    outline: none;
-    cursor: pointer;
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
     padding: 14px 16px;
-    transition: 0.3s;
+    text-decoration: none;
     font-size: 17px;
+    text-transform: uppercase;
 }
 
-/* change background color of buttons on hover */
-div.navigation ul li a:hover {
-    background-color: #dfc8d1;
-    color: #800000;
+/* Change the color of links on hover */
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
 }
 
-/* navigation ends */
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+}
+
+/* Image starts here */
+.right {
+  position: absolute;
+  right: 200px;
+}
+
