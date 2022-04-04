@@ -1,0 +1,10 @@
+.header {
+    background-color: #150300;
+    padding: 15px;
+    margin: 20px;
+}
+
+.brand {
+    color: white;
+    text-transform: uppercase;
+}
